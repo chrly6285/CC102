@@ -12,6 +12,6 @@ int main() {
 	cin>>CYL;
 	cout<<"School:\t";
 	cin>>Sch;
-	cout<<"\nWow Congrats "<<nN<<" ! "<<CYL<<" is a nice course. And you are studying in "<<Sch<<" which is one of the Center of Excellence in Teritory Education.";
+	cout<<"\nWow Congrats "<<nN<<" ! "<<CYL<<" is a nice course. And you are studying in "<<Sch<<" which is one of the Center of Excellence in Tertiary Education.";
 	return 0;
 }
