@@ -10,7 +10,7 @@ int main(){
     if(age < 16){
         cout << "Too young to drive" << endl;
     }
-    else if(age == 16){
+    else if(age >= 16 && age < 18){
         cout << "Better clear the road" << endl;
     }
     else {
