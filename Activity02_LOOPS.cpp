@@ -79,7 +79,7 @@ int main() {
             cout << symbol1;
         }
         for (int j = 0; j < 5; j++) {
-            cout << "^";
+            cout << symbol2;
         }
         cout << symbol3 << endl;
     }
