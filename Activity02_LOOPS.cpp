@@ -64,12 +64,10 @@ int main() {
 
     // i: (symbol1, symbol2, symbol3 combined)
     cout << "\ni:" << endl;
-    for (int i = 0; i < 5; i++) {
-        for (int j = 0; j < 1; j++) {
-            cout << "          ";
-            for (int k = 0; k < i; k++) {
-                cout << symbol2;
-            }
+    for (int i = 0; i < 5; i++){
+        cout << "          ";
+        for (int j = 0; j < i; j++) {
+            cout << symbol2;
         }
         cout << symbol3 << endl;
     }
@@ -85,11 +83,9 @@ int main() {
     }
 
     for (int i = 4; i >= 0; i--) {
-        for (int j = 0; j < 1; j++) {
-            cout << "          ";
-            for (int k = 0; k < i; k++) {
-                cout << symbol2;
-            }
+        cout << "          ";
+        for (int j = 0; j < i; j++) {
+            cout << symbol2;
         }
         cout << symbol3 << endl;
     }
